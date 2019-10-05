@@ -1,0 +1,11 @@
+my_hand = Hand()
+your_hand = Hand()
+hands = [my_hand, your_hand]
+deck1.deal(hands, per_hand = 5)
+print("\nМне и вам на руки роздано по 5 карт.")
+print("У меня на руках:")
+print(my_hand)
+print("У вас на руках:")
+print(your_hand)
+print("Осталось в колоде:")
+print(deck1)
